@@ -1,4 +1,55 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  background-color: #214341;
+  color: #fff;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.links {
+  display: flex;
+  font-family: Segoe UI, Optima, Arial, sans-serif;
+  font-size: 16px;
+  gap: 22px;
+}
+.top-section {
+  display: flex;
+  justify-content: center;
+  padding: 128px;
+  gap: 62px;
+  background-color: #214341;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  color: #fff;
+  flex: 1;
+}
+.main-text {
+  font-size: 32px;
+  font-weight: 700;
+}
+.minor-text {
+  font-size: 16px;
+}
+.album-art img {
+  height: 260px;
+  width: 400px;
+  object-fit: cover;
+}
+.text-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 400px;
+}
+.listen {
+  padding: 8px 12px;
 }
