@@ -68,3 +68,18 @@
   justify-content: center;
   gap: 18px;
 }
+.lyric-section {
+  padding: 64px;
+  display: flex;
+  background-color: #ebf2e8;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-family: "Brush Script MT", cursive;
+  color: #214341;
+}
+.lyric-from {
+  display: flex;
+  justify-content: right;
+  font-size: 24px;
+}
