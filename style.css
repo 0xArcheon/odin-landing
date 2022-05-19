@@ -3,7 +3,7 @@
   padding: 0px;
 }
 .navbar {
-  background-color: #214341;
+  background-color: #424874;
   color: #fff;
   padding: 32px;
   display: flex;
@@ -26,7 +26,7 @@
   justify-content: center;
   padding: 128px;
   gap: 62px;
-  background-color: #214341;
+  background-color: #424874;
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
   color: #fff;
   flex: 1;
@@ -55,6 +55,7 @@
   padding: 8px 12px;
   border-radius: 10px;
   border-color: #fff;
+  background-color: #e0ece4;
 }
 .music-title {
   text-align: center;
@@ -74,7 +75,7 @@
 .lyric-section {
   padding: 64px;
   display: flex;
-  background-color: #ebf2e8;
+  background-color: #cdf0ea;
   justify-content: center;
   align-items: center;
   font-size: 36px;
@@ -84,7 +85,9 @@
 .lyric-from {
   display: flex;
   justify-content: right;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
 }
 .buy-section {
   display: flex;
@@ -93,7 +96,7 @@
   align-items: center;
 }
 .buy-box {
-  background-color: #6a67ce;
+  background-color: #ffb6b9;
   border-radius: 12px;
   padding: 32px;
   display: flex;
@@ -113,4 +116,18 @@
   padding: 8px 12px;
   border-radius: 12px;
   border-color: #fff;
+  background-color: #e0ece4;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background-color: #424874;
+  color: white;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
