@@ -42,6 +42,7 @@
   height: 260px;
   width: 400px;
   object-fit: cover;
+  border-radius: 10px;
 }
 .text-left {
   display: flex;
@@ -52,6 +53,8 @@
 }
 .listen {
   padding: 8px 12px;
+  border-radius: 10px;
+  border-color: #fff;
 }
 .music-title {
   text-align: center;
@@ -82,4 +85,32 @@
   display: flex;
   justify-content: right;
   font-size: 24px;
+}
+.buy-section {
+  display: flex;
+  padding: 64px;
+  justify-content: center;
+  align-items: center;
+}
+.buy-box {
+  background-color: #6a67ce;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+}
+.buy-texts {
+  color: #fff;
+}
+.text-top {
+  font-size: 22px;
+  font-weight: 650;
+}
+.buy-button {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border-color: #fff;
 }
